@@ -1,0 +1,6 @@
+module CRuby [system] {
+  header "/opt/rubies/2.1.0/include/ruby-2.1.0/ruby/ruby.h"
+  link "ruby"
+  export *
+}
+
