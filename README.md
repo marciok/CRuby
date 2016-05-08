@@ -16,4 +16,4 @@ let package = Package(
 ```
 
 #Build
-`swift build -Xlinker -L$RBENV_ROOT/versions/2.1.0/lib
+`swift build -Xlinker -L$RBENV_ROOT/versions/2.1.0/lib`
