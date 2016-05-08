@@ -1,6 +1,6 @@
 # Ruby Swift Package 
-Call `ruby.h` from Swift.
-Tested on OSX 10.11, using ruby 2.1.0 installed with [rbenv](https://github.com/rbenv/rbenv)
+Import `ruby.h` on Swift.
+Tested on OSX 10.11, `using ruby 2.1.0` installed via [rbenv](https://github.com/rbenv/rbenv)
 
 #Usage
 ```Swift
@@ -15,4 +15,4 @@ let package = Package(
 ```
 
 #Build
-`swift build -Xlinker -L/opt/boxen/rbenv/versions/2.1.0/lib`
+`swift build -Xlinker -L$RBENV_ROOT/versions/2.1.0/lib
