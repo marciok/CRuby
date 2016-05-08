@@ -1,6 +1,7 @@
 # Ruby Swift Package 
-Import `ruby.h` on Swift.
-Tested on OSX 10.11, `using ruby 2.1.0` installed via [rbenv](https://github.com/rbenv/rbenv)
+Imports `ruby.h` on Swift.
+
+**Tested on OSX 10.11, on `ruby 2.1.0` installed via [rbenv](https://github.com/rbenv/rbenv)**
 
 #Usage
 ```Swift
