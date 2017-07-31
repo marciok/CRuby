@@ -1,5 +1,5 @@
 module CRuby {
-  header "/usr/local/var/rbenv/versions/2.1.0/include/ruby-2.1.0/ruby.h"  // If it can't find ,check where rbenv is installed: echo $RBENV_ROOT
+  header "/usr/local/var/rbenv/versions/2.4.0/include/ruby-2.4.0/ruby.h"
   link "ruby"
   export *
 }
